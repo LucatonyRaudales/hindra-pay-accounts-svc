@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/hindra-pay-solana-accounts-svc/api/responses"
+	"github.com/LucatonyRaudales/hindra-pay-solana-accounts-svc/api/responses"
 )
 
 func (server *Server) Home(w http.ResponseWriter, r *http.Request) {
