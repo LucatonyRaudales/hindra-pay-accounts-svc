@@ -11,7 +11,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/mysql"    //mysql database driver
 	_ "github.com/jinzhu/gorm/dialects/postgres" //postgres database driver
 
-	"github.com/LucatonyRaudales/hindra-pay-solana-accounts-svc/api/models"
+	"github.com/LucatonyRaudales/hindra-pay-accounts-svc/api/models"
 )
 
 type Server struct {

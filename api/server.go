@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
-	"github.com/LucatonyRaudales/hindra-pay-solana-accounts-svc/api/controllers"
+	"github.com/LucatonyRaudales/hindra-pay-accounts-svc/api/controllers"
 )
 
 var server = controllers.Server{}

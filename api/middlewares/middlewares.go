@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/LucatonyRaudales/hindra-pay-solana-accounts-svc/api/auth"
-	"github.com/LucatonyRaudales/hindra-pay-solana-accounts-svc/api/responses"
+	"github.com/LucatonyRaudales/hindra-pay-accounts-svc/api/auth"
+	"github.com/LucatonyRaudales/hindra-pay-accounts-svc/api/responses"
 )
 
 func SetMiddlewareJSON(next http.HandlerFunc) http.HandlerFunc {
